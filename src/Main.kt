@@ -49,7 +49,7 @@ fun main() {
     //Hasta que se responda negativamente a la pregunta "¿Desea generar otra tabla de multiplicación? (s/n)"
     do {
         val num = pedirNum(1, 100)
-        //Lo de Array es la cantidad o el tamaño de cuantos resultados se vana imprimir, esto agrega limites
+        //Lo de Array es la cantidad o el tamaño de cuantos resultados se vana imprimir, esto agrega limites.
         val tabla = Array(12) { i -> (i + 1) * num }
         println("Tabla de Multiplicar de $num")
         for (i in 1..10) {
